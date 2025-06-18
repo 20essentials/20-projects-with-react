@@ -1,4 +1,5 @@
 ---
+import { baseUrl } from "@/utils/functions";
 const arrayCards = [
   {
     title: 'LedMansion Landing',
@@ -148,7 +149,7 @@ const arrayCards = [
   {
     arrayCards.map(({ title, web, repo, localImage }) => {
       return (
-        <a href={repo} class='three-d-wrapper' style={`--bg: url(${localImage})`}>
+        <a href={repo} class='three-d-wrapper' style={`--bg: url(${baseUrl(localImage)})`}>
           <div class={`card charizard animated`} />
         </a>
       );

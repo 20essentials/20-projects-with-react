@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'ChocoladineDemo';
-  src: url('./assets/ChocoladineDemo.ttf') format('truetype');
+  src: url('/assets/ChocoladineDemo.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
