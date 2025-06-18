@@ -1,0 +1,2 @@
+- **Reference / Inspiration ⬇️**
+  - [Cards Pokemon](https://card-pokemon.com/)

@@ -1,0 +1,66 @@
+<section class='bg'>
+  <aside class='fondin'></aside>
+  <h2>20 PROJECTS WITH REACT <img src="./assets/reactLogo.svg" alt="logo react"></h2>
+</section>
+
+<style>
+  .bg {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: black;
+    background-image: url('./assets/fondin.avif');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .fondin {
+      z-index: 9999;
+      mix-blend-mode: overlay;
+      inset: 0;
+      position: absolute;
+      animation: moveTitle 20s ease infinite alternate;
+    }
+  }
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.3vmax;
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    text-wrap: balance;
+    text-shadow: 0 0  8px #000, 0 0 16px #000;
+    line-height: 1.2;
+
+    img {
+      width: 4vmax;
+      transform: translateY(0.5vmax);
+    }
+  }
+
+  @keyframes moveTitle {
+    0% {
+      background-color: #f0f;
+    }
+
+    25% {
+      background-color: #0f0;
+    }
+
+    50% {
+      background-color: #00f;
+    }
+
+    75% {
+      background-color: #f00;
+    }
+
+    100% {
+      background-color: #ff0;
+    }
+  }
+</style>

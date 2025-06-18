@@ -1,0 +1,11 @@
+---
+import ContainerCards from '@/components/ContainerCards.astro';
+// import Hero from '@/components/Hero.astro';
+import Hero from '@/components/Hero'
+import Layout from '@/layouts/Layout.astro';
+---
+
+<Layout>
+  <Hero client:load />
+  <ContainerCards />
+</Layout>
