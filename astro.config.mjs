@@ -10,6 +10,7 @@ export default defineConfig({
     assets: 'static'
   },
   //Deploy 20 Projects
+  base: '/20-projects-with-react/',
   site: 'https://20essentials.github.io/20-projects-with-react/'
 
   //Localhost
